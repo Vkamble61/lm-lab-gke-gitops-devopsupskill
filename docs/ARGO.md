@@ -64,7 +64,7 @@ $argocdpass = kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpa
 Then just type the variable name to get the contents and add that into the command below to get your ArgoCD password:
 
 ```
-[Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('**argocdpass output in here**'))
+[Text.Encoding]::Utf8.GetString([Convert]::FromBase64String('NVFlMXJtVXV3bXd5empsTw=='))
 ```
 
 ### Step 4 - Port forwarding into the ArgoCD dashboard
